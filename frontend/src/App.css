@@ -1,0 +1,69 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background: var(--primary-light);
+    padding: 0 1rem;
+}
+
+header a.navbar-brand {
+    padding: 1rem;
+    font-size: 30px;
+    color: var(--primary);
+    font-weight: 800;
+}
+
+header .nav-link {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary);
+}
+
+header .nav-link:hover {
+    color: var(--secondary);
+}
+
+.List,
+.formUI {
+    box-shadow: 2px 4px 5px 6px #f1f1f1;
+    width: 70%;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.List h1.title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+}
+
+.List table {
+    width: 100%;
+}
+
+footer {
+    background-color: var(--secondary-light);
+    color: var(--secondary);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}

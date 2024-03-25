@@ -1,0 +1,8 @@
+:root {
+    --font-family: "Nunito Sans", sans-serif;
+    --primary : rgb(1, 129, 63);
+    --primary-light:rgb(144 224 182 / 54%);
+    --secondary : rgb(69, 3, 3);
+    --secondary-light:rgb(200 100 100 / 62%);
+    --border : #dddddd;
+}
